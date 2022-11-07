@@ -6,6 +6,8 @@ Tecnologías
 Lenguaje: Python
 Librerías: Tweepy, CSV.
 
+Sueños publicados en: https://twitter.com/QuimeraVzla
+
 Si deseas que tu tuit sea retirado, escríbeme: monica@monicacorrea.com
 
 Soy Mónica Correa, profesora de historia y periodista de datos.
