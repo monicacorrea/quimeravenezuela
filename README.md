@@ -7,6 +7,8 @@ Technologies
 Language: Python.
 Libraries: Tweepy, CSV.
 
+Texts published on: https://twitter.com/QuimeraVzla
+
 If you want your tweet to be removed, email me: monica@monicacorrea.com
 
 I am Mónica Correa, history teacher and data journalist.
