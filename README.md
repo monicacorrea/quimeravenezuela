@@ -4,7 +4,7 @@ When I read the book "Das Dritte Reich des Traums" I was very impressed by the w
 I started to investigate on Twitter the stories of what Venezuelans dream about Venezuela. Many dreams are related to loss and violence; however, I prefer to rescue dreams related to hope and union.
 
 Technologies
-Language: Python
+Language: Python.
 Libraries: Tweepy, CSV.
 
 If you want your tweet to be removed, email me: monica@monicacorrea.com
