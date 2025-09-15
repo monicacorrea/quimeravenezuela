@@ -1,14 +1,14 @@
 import tweepy
 import csv
 
-# Tu token debe ser de una cuenta con acceso (Basic/Pro/Enterprise)
+# Token de una cuenta con acceso 
 bearer_token = "YOUR-DETAILS-HERE"
 client = tweepy.Client(bearer_token=bearer_token, wait_on_rate_limit=True)
 
 # Nombre del archivo CSV
 file_name = "tweets.csv"
 
-# Tus queries (ojo: cada llamada = 100 máx., y hay límites por mes según tu plan)
+# Queries segun plan
 queries = [
     "soñe venezuela -is:retweet lang:es"
 ]
@@ -18,7 +18,7 @@ with open(file_name, "w", newline="", encoding="utf-8") as filehandle:
     writer.writerow(["created_at", "username", "text"])  # cabecera CSV
 
     for query in queries:
-        # Ahora hay que pedir expansions explícitas
+        # Expansions
         response = client.search_recent_tweets(
             query=query,
             tweet_fields=["created_at", "lang"],
